@@ -3,31 +3,20 @@ html {
   background-color: #202124;
   color: #ffffff;
   font-family: Inter sans-serif;
-  }
-  .heading {
+}
+.title {
     text-align: center;
-    position: fixed;
-    width: 100%;
-              }
-  .footer {
-    position: fixed;
-    left: 0;
-    bottom:0;
-    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
     text-align: center;
-  }
-  a:link {
-    color: #8ab4f8;
-    background-color: transparent;
     text-decoration: none;
-  }
-  a:visited {
-    color: #c58af9;
-    background-color: transparent;
-    text-decoration: none;
-  }
-  a:hover {
-    color: #c58af9;
-    background-color: transparent;
-    text-decoration: underline;
-  }
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+}
